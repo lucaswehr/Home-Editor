@@ -9,9 +9,9 @@ OVERVIEW:
 
 Home Editor (Unity)
 
-Home Editor is a Unity prototype tool for creating simple floor plans by placing walls and automatically detecting rooms. The project focuses on geometry, graph traversal, and editor tooling rather than visuals.
+I made a Unity prototype tool for creating simple floor plans by placing walls and automatically detecting rooms. The project focuses on geometry, graph traversal, and editor tooling rather than visuals.
 
-Walls are represented as edges in a graph. Rooms are detected by walking this graph clockwise to find closed loops and converting those loops into polygonal room shapes.
+Walls are represented as edges in a graph. Rooms are detected by walking this graph clockwise to find closed loops and converting those loops into polygonal room shapes. 
 
 FEATURES:
 ----------------------------------
@@ -47,7 +47,7 @@ Invalid or duplicate polygons are discarded.
 
 The remaining polygons are stored as Room objects and can be visualized for debugging.
 
-Key logic lives in:
+Main Functions:
 
 WallManager (graph + room detection)
 
